@@ -1,0 +1,23 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+gem 'cocoapods', :git => 'https://github.com/dnkoutso/CocoaPods.git', :ref => '77be91d3d9b451bb438f5c1935d9e3814e630ab7'
+
+
+def cp_gem(name)
+  url = "https://github.com/CocoaPods/#{name}.git"
+  opts = { :git => url, :branch => 'master' }
+  gem name, opts
+end
+
+cp_gem 'cocoapods-deintegrate'
+cp_gem 'cocoapods-downloader'
+cp_gem 'cocoapods-plugins'
+cp_gem 'cocoapods-search'
+cp_gem 'cocoapods-stats'
+cp_gem 'cocoapods-trunk'
+cp_gem 'cocoapods-try'
