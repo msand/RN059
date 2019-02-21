@@ -1193,6 +1193,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-RN059/Pods-RN059-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RNSVG/RNSVG.framework",
 				"${BUILT_PRODUCTS_DIR}/React/React.framework",
 				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
 				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
@@ -1201,6 +1202,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNSVG.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
